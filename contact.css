@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arsenal';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.main-container{
+    background-color: white;
+    max-width: 450px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1.2rem 2.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-title h4{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    filter: drop-shadow(2px 2px 2px lightblue);
+}
+
+.form-title hr{
+    width: 6rem;
+    height: 0.2rem;
+    border: none;
+    background-color: blueviolet;
+    margin-top: 2px;
+    border-radius:0.255rem;
+}
+
+.contact-input{
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    border-radius: 0.255rem;
+    letter-spacing: 1px;
+}
+
+.contact-input::placeholder{
+    color: black;
+    letter-spacing: 1px;
+  
+}
+
+.contact-input:focus{
+    border: 0.1rem solid blue;
+
+}
+
+.contact-form button{
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    width: 6rem;
+    color: white;
+    background-color: blueviolet;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 0.255rem;
+}
+
+
+
+
+
