@@ -2,16 +2,16 @@
 {
     margin: 0;
     padding: 0;
-    font-family: 'Arsenal';
+    font-family: calibri;
     box-sizing: border-box;
 }
 
 body{
-    background-color: blueviolet;
+    background-color:white;
 }
 
 .main-container{
-    background-color: white;
+    background-color: #f5f5f5;
     max-width: 450px;
     width: 85%;
     margin: 0 auto;
@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .contact-form{
@@ -30,14 +31,13 @@ body{
 
 .form-title h4{
     font-size: 1.2rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    filter: drop-shadow(2px 2px 2px lightblue);
 }
 
 .form-title hr{
-    width: 6rem;
-    height: 0.2rem;
+    width: 4rem;
+    height: 0.1rem;
     border: none;
     background-color: blueviolet;
     margin-top: 2px;
@@ -45,12 +45,12 @@ body{
 }
 
 .contact-input{
-    width: 100%;
-    padding: 0.7rem;
+    width: 100%;     
+    padding: 0.8rem;
     border: none;
     outline: none;
-    background-color: #f5f5f5;
-    border-radius: 0.255rem;
+    background-color: #ffff;
+    border-radius: 2px;
     letter-spacing: 1px;
 }
 
@@ -62,11 +62,10 @@ body{
 
 .contact-input:focus{
     border: 0.1rem solid blue;
-
 }
 
 .contact-form button{
-    padding: 0.4rem;
+    padding: 0.6rem 1rem;
     border: none;
     outline: none;
     width: 6rem;
@@ -74,7 +73,7 @@ body{
     background-color: blueviolet;
     font-size: 1rem;
     letter-spacing: 1px;
-    border-radius: 0.255rem;
+    border-radius: 2px;
 }
 
 
